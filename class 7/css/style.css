@@ -1,0 +1,224 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+a, a:hover{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration: none;
+}
+
+/* REEN Project css code start here */
+.header-section{
+    width: 100%;
+}
+.top-header{
+    width: 100%;
+    background: #f5f7fa;
+    padding: 5px 0px;
+}
+.top-header .info-inner ul{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}
+.top-header .info-inner ul li{
+    list-style: none;
+    display: inline-block;
+}
+.top-header .info-inner ul li a{
+    font-size: 14px;
+    font-weight: 600;
+    color: #506a85;
+    margin-right: 15px;
+}
+.top-header .info-inner ul li a:hover{
+    color: #60d5c1;
+}
+.top-header .info-inner ul li a i{
+    margin-right: 5px;
+}
+
+/* socile icons section start here */
+
+.top-header .socile-icons{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    text-align: right;
+}
+.top-header .socile-icons li{
+    list-style: none;
+    display: inline-block;
+}
+.top-header .socile-icons li a{
+    font-size: 14px;
+    font-weight: 600;
+    color: #506a85;
+    margin-left: 15px;
+}
+.top-header .socile-icons li a:hover{
+    color: #60d5c1;
+}
+/* main menu css start here */
+.main-menu{
+    width: 100%;
+}
+.main-menu .bg-light{
+    background: transparent !important;
+}
+.main-menu .navbar-light .navbar-nav .active>.nav-link {
+    color: #506a85;
+}
+.main-menu .navbar-light .navbar-nav .nav-link {
+    color: #506a85;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0px 15px;
+    transition:1s;
+}
+.main-menu .navbar-light .navbar-nav .nav-link:hover,.main-menu .navbar-light .navbar-nav .nav-link:focus{
+    color: #60d5c1;
+}
+.main-menu .fa-search{
+    color: #506a85;
+    font-size: 14px;
+    font-weight: 700;
+}
+.main-menu .fa-search:hover,.main-menu .fa-search:focus{
+    color: #60d5c1;
+}
+/* slider section start here */
+.slider-sectio{
+    width: 100%;
+}
+.slider-sectio .carousel-caption{
+    bottom: 30%;
+}
+.slider-sectio .carousel-caption h2{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.slider-sectio .carousel-caption p{
+    font-size: 16px;
+    line-height: 26px;
+    color:#a3b1bf;
+}
+.slider-sectio .carousel-caption .btn-info{
+    padding: 10px 35px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background:#00bc9c;
+    border: 1px solid #00bc9c;
+    color:#fff;
+    transition: .5s;
+}
+.slider-sectio .carousel-caption .btn-info:hover{
+    background:transparent;
+    border: 1px solid #00bc9c;
+    color:#00bc9c;
+}
+/* slider section start end*/
+
+/* woh-we section start */
+
+.woh-we{
+    width: 100%;
+    padding: 80px 0px;
+}
+.woh-we .title{
+    width: 100%;
+    text-align: center;
+    padding: 0px 0px 40px;
+}
+.woh-we .title h2{
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #a3b1bf;
+}
+.woh-we .title p {
+    width: 60%;
+    margin: 0px auto;
+    font-size: 16px;
+    line-height: 26px;
+    color: #a3b1bf;
+}
+.woh-we .media{
+    padding: 30px 0px 0px;
+}
+.woh-we .media-body{
+    padding: 0px 10px;
+}
+.woh-we .media-body h5{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #a3b1bf;
+    margin: 0px 0px 10px;
+}
+.woh-we .media-body p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #a3b1bf;
+}
+/* woh-we section end */
+
+/* protfulio start */
+.portfulio{
+    width: 100%;
+    padding: 80px;
+    background: #f2f5f7;
+}
+.portfulio .title{
+    width: 100%;
+    text-align: center;
+    padding: 0px 0px 60px;
+}
+.portfulio .title h2{
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #a3b1bf;
+}
+.portfulio .title p {
+    width: 60%;
+    margin: 0px auto;
+    font-size: 16px;
+    line-height: 26px;
+    color: #a3b1bf;
+}
+.portfulio .card-body{
+    text-align: center;
+}
+.portfulio .card-body h5{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #a3b1bf;
+    margin-bottom: 5px;
+}
+.portfulio .card-body p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #a3b1bf;
+}
+
+/* protfulio end */
+
+
+
